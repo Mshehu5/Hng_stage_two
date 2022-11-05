@@ -4,9 +4,7 @@ const { calops } = require("./calculationsOperation");
 function getcalfunc(req, res) {
   const slackUsername = "Shehu";
   const result = calops(req);
-  const operation_type = getEnumType(
-    String(req.body.operation_type).toLowerCase
-  );
+  const operation_type = getEnumType(req.body.operation_type);
   if (!operation_type) {
     return res.status(400).json({
       slackUsername,

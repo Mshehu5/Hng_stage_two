@@ -10,7 +10,7 @@ function multiply(x, y) {
   return x * y;
 }
 
-const enumobject = Object.freeze({
+const enumobj = Object.freeze({
   addition: addition,
   subtraction: subtract,
   multiplication: multiply,
@@ -36,67 +36,67 @@ function calops(req) {
       switch (word) {
         case "addition":
           {
-            ans = enumobject.addition(wordNum[0], wordNum[1]);
+            ans = enumobj.addition(wordNum[0], wordNum[1]);
           }
           break;
         case "plus":
           {
-            ans = enumobject.addition(wordNum[0], wordNum[1]);
+            ans = enumobj.addition(wordNum[0], wordNum[1]);
           }
           break;
         case "sum":
           {
-            ans = enumobject.addition(wordNum[0], wordNum[1]);
+            ans = enumobj.addition(wordNum[0], wordNum[1]);
           }
           break;
         case "add":
           {
-            ans = enumobject.addition(wordNum[0], wordNum[1]);
+            ans = enumobj.addition(wordNum[0], wordNum[1]);
           }
           break;
         case "summation":
           {
-            ans = enumobject.addition(wordNum[0], wordNum[1]);
+            ans = enumobj.addition(wordNum[0], wordNum[1]);
           }
           break;
         case "subtraction":
           {
-            ans = enumobject.subtraction(wordNum[0], wordNum[1]);
+            ans = enumobj.subtraction(wordNum[0], wordNum[1]);
           }
           break;
         case "subtract":
           {
-            ans = enumobject.subtraction(wordNum[0], wordNum[1]);
+            ans = enumobj.subtraction(wordNum[0], wordNum[1]);
           }
           break;
         case "difference":
           {
-            ans = enumobject.subtraction(wordNum[0], wordNum[1]);
+            ans = enumobj.subtraction(wordNum[0], wordNum[1]);
           }
           break;
         case "minus":
           {
-            ans = enumobject.subtraction(wordNum[0], wordNum[1]);
+            ans = enumobj.subtraction(wordNum[0], wordNum[1]);
           }
           break;
         case "multiplication":
           {
-            ans = enumobject.multiplication(wordNum[0], wordNum[1]);
+            ans = enumobj.multiplication(wordNum[0], wordNum[1]);
           }
           break;
         case "multiply":
           {
-            ans = enumobject.multiplication(wordNum[0], wordNum[1]);
+            ans = enumobj.multiplication(wordNum[0], wordNum[1]);
           }
           break;
         case "product":
           {
-            ans = enumobject.multiplication(wordNum[0], wordNum[1]);
+            ans = enumobj.multiplication(wordNum[0], wordNum[1]);
           }
           break;
         case "times":
           {
-            enumobject.multiplication(wordNum[0], wordNum[1]);
+            enumobj.multiplication(wordNum[0], wordNum[1]);
           }
           break;
       }
@@ -113,67 +113,67 @@ function calops(req) {
       switch (word) {
         case "addition":
           {
-            ans = enumobject.addition(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.addition(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "plus":
           {
-            ans = enumobject.addition(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.addition(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "sum":
           {
-            ans = enumobject.addition(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.addition(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "add":
           {
-            ans = enumobject.addition(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.addition(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "summation":
           {
-            ans = enumobject.addition(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.addition(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "subtraction":
           {
-            ans = enumobject.subtraction(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.subtraction(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "subtract":
           {
-            ans = enumobject.subtraction(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.subtraction(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "difference":
           {
-            ans = enumobject.subtraction(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.subtraction(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "minus":
           {
-            ans = enumobject.subtraction(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.subtraction(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "multiplication":
           {
-            ans = enumobject.multiplication(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.multiplication(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "multiply":
           {
-            ans = enumobject.multiplication(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.multiplication(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "product":
           {
-            ans = enumobject.multiplication(wordNum[0] || x, wordNum[1] || y);
+            ans = enumobj.multiplication(wordNum[0] || x, wordNum[1] || y);
           }
           break;
         case "times":
           {
-            enumobject.multiplication(wordNum[0] || x, wordNum[1] || y);
+            enumobj.multiplication(wordNum[0] || x, wordNum[1] || y);
           }
           break;
       }
@@ -184,67 +184,67 @@ function calops(req) {
       switch (word) {
         case "addition":
           {
-            ans = enumobject.addition(x, y);
+            ans = enumobj.addition(x, y);
           }
           break;
         case "plus":
           {
-            ans = enumobject.addition(x, y);
+            ans = enumobj.addition(x, y);
           }
           break;
         case "sum":
           {
-            ans = enumobject.addition(x, y);
+            ans = enumobj.addition(x, y);
           }
           break;
         case "add":
           {
-            ans = enumobject.addition(x, y);
+            ans = enumobj.addition(x, y);
           }
           break;
         case "summation":
           {
-            ans = enumobject.addition(x, y);
+            ans = enumobj.addition(x, y);
           }
           break;
         case "subtraction":
           {
-            ans = enumobject.subtraction(x, y);
+            ans = enumobj.subtraction(x, y);
           }
           break;
         case "subtract":
           {
-            ans = enumobject.subtraction(x, y);
+            ans = enumobj.subtraction(x, y);
           }
           break;
         case "difference":
           {
-            ans = enumobject.subtraction(x, y);
+            ans = enumobj.subtraction(x, y);
           }
           break;
         case "minus":
           {
-            ans = enumobject.subtraction(x, y);
+            ans = enumobj.subtraction(x, y);
           }
           break;
         case "multiplication":
           {
-            ans = enumobject.multiplication(x, y);
+            ans = enumobj.multiplication(x, y);
           }
           break;
         case "multiply":
           {
-            ans = enumobject.multiplication(x, y);
+            ans = enumobj.multiplication(x, y);
           }
           break;
         case "product":
           {
-            ans = enumobject.multiplication(x, y);
+            ans = enumobj.multiplication(x, y);
           }
           break;
         case "times":
           {
-            ans = enumobject.multiplication(x, y);
+            ans = enumobj.multiplication(x, y);
           }
           break;
       }
@@ -254,6 +254,6 @@ function calops(req) {
 }
 
 module.exports = {
-  enumobject,
+  enumobj,
   calops,
 };

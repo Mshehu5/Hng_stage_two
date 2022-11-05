@@ -1,8 +1,8 @@
-const enumobject = require("./calculationsOperation");
+const { enumobj } = require("./calculationsOperation");
 
 function getEnumType(words) {
   const lent = words.split(" ");
-  let enumType = Object.keys(enumobject);
+  let enumType = Object.keys(enumobj);
   let enumvalue;
   lent.forEach((word) => {
     switch (word) {
