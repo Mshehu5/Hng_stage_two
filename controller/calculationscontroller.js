@@ -1,4 +1,5 @@
 const { getEnumType } = require("./enum");
+const { calops } = require("./calculationsOperation");
 
 function getcalfunc(req, res) {
   const slackUsername = "Shehu";
